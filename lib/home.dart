@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
       drawer: const AppDrawer(),
       appBar: AppBar(
         title: const Text('Telegram'),
-        backgroundColor: Colors.blueGrey[900],
+        backgroundColor: const Color.fromARGB(255, 47, 63, 71),
       ),
       body: const Center(
         child: Text('Telegram Home Page', style: TextStyle(fontSize: 18)),
